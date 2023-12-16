@@ -58,6 +58,7 @@
 }
 
 .pesquisa .search-bar-container .search-bar input{
+    min-width: 200px;
     width: 45%;
     padding: 8px;
     border: 2px solid var(--dark-grey);
@@ -83,11 +84,60 @@
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .filter-container{
     width: 100%;
     background-color: var(--dark-grey);
-    
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.filter-container .options{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.filter-container .options h1{
+    font-size: 18px;
+    color: var(--light-text);
+    padding-bottom: 20px;
+}
+
+.filter-container .options ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.filter-container .options ul li{
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: var(--light-text);
+    border: 1px solid white;
+}
+
+.filter-container .options ul li input{
+    display: none;
+}
+
+.filter-container .options ul li label{
+    padding: 10px;
+}
+
+.filter-container .options ul li input:checked{
+    display: table;
 }

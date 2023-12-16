@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/search.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="shortcut icon" href="assets/svg/pokeball-pokemon-svgrepo-com.svg">
     <title>Pokédex</title>
 </head>
@@ -34,7 +36,7 @@
                 <h1>NOME OU NÚMERO</h1>
                 <div class="search-bar">
                     <input type="search" name="nameOrNumber" id="">
-                    <button><img src="assets/svg/icons8-search.svg" alt=""></button>
+                    <button onclick=""><img src="assets/svg/icons8-search.svg" alt=""></button>
                 </div>
             </div>
 
@@ -123,11 +125,46 @@
                 </li>
             </ul>
         </div>
+        <div class="btn-search">
+            <button>Pesquisar <img src="assets/svg/icons8-search.svg"" alt=""></button>
+        </div>
     </section>
 
-    <section class="card">
-        
+    <section class=" card">
+
+                <div class="head-card">
+                    <button><img src="assets/svg/reload-svgrepo-com.svg" alt=""> Aleatório </button>
+                    <div class="ordenar-card">
+                        <p>Organizar por: </p>
+                        <select id="order-options">
+                            <option value="Menor número">Menor número</option>
+                            <option value="Maior número">Maior número</option>
+                            <option value="A-Z">A-Z</option>
+                            <option value="Z-A">Z-A</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="main-card">
+                    <div class="card-pokemon">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+                            alt="">
+                        <div class="infos">
+                            <p>N° 001</p>
+                            <h1>Bulbassaure</h1>
+                            <div class="types">
+                                <span class="type-name">Grass</span>
+                                <span class="type-name">Grass</span>
+                                <span class="type-name">Grass</span>
+                                <span class="type-name">Grass</span>
+                                <span class="type-name">Grass</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     </section>
+
+    <footer></footer>
 
     <script src="script.js"></script>
 </body>

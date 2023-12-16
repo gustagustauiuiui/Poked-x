@@ -64,11 +64,18 @@
     border: 2px solid var(--dark-grey);
     margin-right: 15px;
 }
+
 .pesquisa .search-bar-container .search-bar button {
     padding: 6px 10px 8px 8px;
     background-color: var(--yellow);
     border: none;
     border-radius: 3px;
+    cursor: pointer;
+}
+
+.pesquisa .search-bar-container .search-bar button:hover{
+    background-color: rgb(209, 168, 35);
+    transition: 0.1s;
 }
 
 .pesquisa .search-bar-container .search-bar button img{
@@ -79,8 +86,8 @@
     padding: 30px;
     border: var(--dark-grey);
     box-shadow: 3px 3px 6px var(--dark-grey);
-    background: var(--yellow);
-    color: var(--dark-grey);
+    background: var(--blue);
+    color: var(--light-text);
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
@@ -92,22 +99,23 @@
     background-color: var(--dark-grey);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
 }
 
 .filter-container .options{
+    width: 80%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
 }
 
 .filter-container .options h1{
     font-size: 18px;
     color: var(--light-text);
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .filter-container .options ul{
@@ -135,9 +143,38 @@
 }
 
 .filter-container .options ul li label{
-    padding: 10px;
+    padding: 7px;
 }
 
 .filter-container .options ul li input:checked{
     display: table;
+}
+
+.filter-container .btn-search{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.filter-container button{
+    padding: 10px 50px;
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+    color: var(--dark-grey);
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-container button:hover{
+    background-color: rgb(209, 168, 35);
+    transition: 0.1s;
+}
+
+.filter-container button img{
+    width: 20px;
 }

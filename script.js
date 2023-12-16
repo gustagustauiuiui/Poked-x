@@ -45,4 +45,8 @@ function consultPokemons(qtd){
     console.log(pokemons);
 }
 
-consultPokemons(3);
+function popular(){
+    
+}
+
+consultPokemons(100);

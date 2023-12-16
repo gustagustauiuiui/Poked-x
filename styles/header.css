@@ -1,0 +1,56 @@
+header{
+    width: 100%;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+header .logo-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--dark-grey);
+}
+
+header .logo-container img{
+    width: 110px;
+}
+
+header .title-container{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+header .title-container h1{
+    color: var(--dark-grey);
+    font-family: 'PocketMonk';
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+header .title-container .heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    gap: 14px;
+    margin-bottom: 24px;
+}
+
+.heading-span{
+    display: flex;
+    width: 50%;
+    height: 8px;
+    background-color: var(--dark-grey);
+}

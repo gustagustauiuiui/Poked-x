@@ -1,0 +1,93 @@
+.pokedex-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin-top: 30px;
+    gap: 18px;
+    
+    background-image: url("/assets/images/20120117.jpg");
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.pokedex-container .title-pokedex{
+    width: 80%;
+    padding: 18px;
+}
+
+.pokedex-container .title-pokedex h1{
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--light-text);
+}
+
+.pesquisa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--light-text);
+    gap: 20px;
+}
+
+.pesquisa .search-bar-container{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.pesquisa .search-bar-container .search-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pesquisa .search-bar-container h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pesquisa .search-bar-container .search-bar input{
+    width: 45%;
+    padding: 8px;
+    border: 2px solid var(--dark-grey);
+    margin-right: 15px;
+}
+.pesquisa .search-bar-container .search-bar button {
+    padding: 6px 10px 8px 8px;
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 3px;
+}
+
+.pesquisa .search-bar-container .search-bar button img{
+    width: 20px;
+}
+
+.pesquisa .info-search-container{
+    padding: 30px;
+    border: var(--dark-grey);
+    box-shadow: 3px 3px 6px var(--dark-grey);
+    background: var(--yellow);
+    color: var(--dark-grey);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.filter-container{
+    width: 100%;
+    background-color: var(--dark-grey);
+    
+    
+}

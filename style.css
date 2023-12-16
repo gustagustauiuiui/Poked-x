@@ -3,9 +3,11 @@
     --light-grey: #808080;
     --light-text: #e5e5e5;
     --medium-text: #939393;
-    --yellow: #FFB612;
+    --yellow: #ffc94a;
+    --blue: #2188fd;
     --red: #dc0a17;
     --green: #2FC022;
+    
 }
 
 *{
@@ -20,6 +22,7 @@
 body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 @font-face {

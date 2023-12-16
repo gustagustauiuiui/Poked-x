@@ -1,6 +1,6 @@
 //requisitos da pesquisa
+    -Listar todos os pokemons (padrão)
     -Pesquisar um pokemons específico <nome ou id>
-    -Listar todos os pokemons
     -Mostrar um pokemon aleatório
     -opções de filtragem
         -ordem de A a Z

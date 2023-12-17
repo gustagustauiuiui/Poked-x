@@ -13,7 +13,7 @@
     <title>Pokédex</title>
 </head>
 
-<body>
+<body onload="consultPokemons(10)">
     <header>
         <div class="logo-container">
             <img src="assets/svg/pokemon-svgrepo-com.svg" alt="">
@@ -145,22 +145,7 @@
                     </div>
                 </div>
 
-                <div class="main-card">
-                    <div class="card-pokemon">
-                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
-                            alt="">
-                        <div class="infos">
-                            <p>N° 001</p>
-                            <h1>Bulbassaure</h1>
-                            <div class="types">
-                                <span class="type-name">Grass</span>
-                                <span class="type-name">Grass</span>
-                                <span class="type-name">Grass</span>
-                                <span class="type-name">Grass</span>
-                                <span class="type-name">Grass</span>
-                            </div>
-                        </div>
-                    </div>
+                <div id="main-card">
                 </div>
     </section>
 
